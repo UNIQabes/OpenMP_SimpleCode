@@ -35,7 +35,8 @@ int main()
     }
 
     double end = second();
-    printf("result:%d\n", s);
-    printf("time:%lf\n", end - start);
+    // printf("result:%d\n", s);
+    // printf("time:%lf\n", end - start);
+    printf("%lf", end - start);
     return 1;
 }

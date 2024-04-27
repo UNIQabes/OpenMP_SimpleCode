@@ -33,5 +33,5 @@ do
 	b_sum=$((b_sum/iterC))
 	c_sum=$((c_sum/iterC))
 
-	echo "\"${i}\",\"${ai_sum}\",$i\"${af_sum}\",$i\"${b_sum}\",$i\"${c_sum}\""
+	echo "\"${i}\",\"${ai_sum}\",\"${af_sum}\",\"${b_sum}\",\"${c_sum}\""
 done

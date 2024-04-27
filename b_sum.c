@@ -23,7 +23,8 @@ int main()
     }
 
     double end = second();
-    printf("result:%f\n", s);
-    printf("time:%lf\n", end - start);
+    // printf("result:%f\n", s);
+    // printf("time:%lf\n", end - start);
+    printf("%lf", end - start);
     return 1;
 }

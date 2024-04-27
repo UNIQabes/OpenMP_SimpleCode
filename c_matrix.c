@@ -65,5 +65,6 @@ int main()
         printf("\n");
     }
     */
-    printf("time:%lf\n", end - start);
+    // printf("time:%lf\n", end - start);
+    printf("%lf", end - start);
 }
